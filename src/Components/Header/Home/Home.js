@@ -3,8 +3,15 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import Scroll from "./Scroll";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const navigate = useNavigate();
+
+  const navigatetotouch = () => {
+    navigate("/Getintouch");
+  };
+
   return (
     <div className="grid grid-cols-10 mt-48">
       <div className="ml-6 flex flex-col gap-6 pt-12">
@@ -32,11 +39,12 @@ const Home = () => {
           Developer with excellent communication skills ,ready to give my best
           to achieve reamrkable outcomes.
         </p>
-        <a href="/contact">
-          <button class="btn">Say Hello</button>
-        </a>
+
+        <button onClick={navigatetotouch} class="btn">
+          Say Hello
+        </button>
       </div>
-      <div className="[mask-image:url(vector.svg)] [mask-repeat:no-repeat] col-span-5 justify-center items-center ml-10">
+      <div className="[mask-image:url(vector.svg)] [mask-repeat:no-repeat] col-span-5 justify-center items-center ml-20">
         <img src="ss.png" alt="Nitesh Khandelwal" className="" />
       </div>
       <div>

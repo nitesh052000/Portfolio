@@ -8,7 +8,7 @@ const Qualification = () => {
         Qualification
       </h2>
       <h3 className="text-center text-xs">My Personal Journey</h3>
-      <div className="flex justify-center mt-16 font-semibold space-x-1">
+      <div className="flex justify-center mt-12 font-semibold space-x-1">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

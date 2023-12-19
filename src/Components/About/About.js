@@ -3,7 +3,7 @@ import Info from "./Info";
 
 const About = () => {
   return (
-    <div className="mt-24">
+    <div id="about-us" className="mt-24">
       <h2 className=" text-3xl font-semibold text-center gap-x-6">About Me</h2>
       <h3 className="text-center">My Introduction</h3>
 
@@ -17,7 +17,9 @@ const About = () => {
             MERN stack developer with a passion for building websites and
             applications with UI. You can see what I am up to on my GitHub.
           </p>
-          <button class="btnn">Download Resume</button>
+          <a href="mycv.pdf" download>
+            <button class="btnn">Download Resume</button>
+          </a>
         </div>
       </div>
     </div>

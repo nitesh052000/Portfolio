@@ -124,8 +124,35 @@ const Portfolio = () => {
             </a>
           </div>
         </div>
-        <div className=" bg-white h-60 w-80 rounded-xl"></div>
-        <div className=" bg-white h-60 w-80 rounded-xl"></div>
+        <div className=" bg-white h-60 w-80 rounded-xl">
+          <div className=" mx-4 mt-5">
+            <img
+              className=" rounded-xl h-40"
+              src="port.png"
+              alt="cryptoimage"
+            ></img>
+            <h1 className=" font-semibold mt-2">Portfolio</h1>
+            <a href="https://github.com/nitesh052000/Portfolio">
+              <div className="flex text-xs">
+                <h1>Demo/GitHub</h1>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-4 h-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                  />
+                </svg>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );

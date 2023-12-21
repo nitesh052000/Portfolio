@@ -1,9 +1,18 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const Scroll = () => {
   return (
     <div className="  ml-7 inline-flex mt-7">
-      <a href="/about" className="flex">
+      <Link
+        className=" cursor-pointer flex"
+        activeClass="active"
+        to="about-us"
+        spy={true}
+        smooth={true}
+        offset={50}
+        duration={500}
+      >
         <svg
           className=" animate-bounce"
           xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +35,7 @@ const Scroll = () => {
             d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3"
           />
         </svg> */}
-      </a>
+      </Link>
     </div>
   );
 };

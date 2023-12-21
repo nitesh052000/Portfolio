@@ -4,7 +4,7 @@ import Backend from "./Backend";
 
 const Skills = () => {
   return (
-    <div className="mt-24">
+    <div id="skills" className="mt-24">
       <h2 className=" text-4xl font-semibold text-center gap-x-6">Skills</h2>
       <h3 className="text-center text-xs">My Technical Level</h3>
       <div className="flex space-x-7 justify-center mt-24">

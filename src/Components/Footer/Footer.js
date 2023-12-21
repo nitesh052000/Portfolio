@@ -1,13 +1,44 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
     <div className="mt-24 bg-white">
       <h1 className="font-semibold text-2xl text-center">Nitesh Khandelwal</h1>
       <div className="flex mt-5 justify-center space-x-8">
-        <h1>About</h1>
-        <h1>Projects</h1>
-        <h1>Skills</h1>
+        <Link
+          className=" cursor-pointer"
+          activeClass="active"
+          to="about-us"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+        >
+          <h1>About</h1>
+        </Link>
+        <Link
+          className=" cursor-pointer"
+          activeClass="active"
+          to="portfolio"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+        >
+          <h1>Projects</h1>
+        </Link>
+        <Link
+          className=" cursor-pointer"
+          activeClass="active"
+          to="skills"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+        >
+          <h1>Skills</h1>
+        </Link>
       </div>
       <div className=" flex justify-center mt-8 space-x-7">
         <a href="https://github.com/nitesh052000">

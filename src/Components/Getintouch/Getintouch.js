@@ -3,7 +3,7 @@ import Talktome from "./Talktome";
 
 const Getintouch = () => {
   return (
-    <div className=" mt-24">
+    <div id="contact" className=" mt-24">
       <h2 className=" text-4xl font-semibold text-center gap-x-6">
         Get in Touch
       </h2>

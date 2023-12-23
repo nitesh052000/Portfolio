@@ -39,7 +39,7 @@ const Home = () => {
           <p className="pt-2 w-64">
             A results-driven Software Developer ,enthusiastic,creative Web
             Developer with excellent communication skills ,ready to give my best
-            to achieve reamrkable outcomes.
+            to achieve remarkable outcomes.
           </p>
           <Link
             activeClass="active"

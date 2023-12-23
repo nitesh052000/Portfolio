@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 const Scroll = () => {
   return (
-    <div className="  ml-7 inline-flex mt-7">
+    <div className="  ml-7 inline-flex mt-16">
       <Link
         className=" cursor-pointer flex"
         activeClass="active"

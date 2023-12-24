@@ -7,9 +7,9 @@ const Portfolio = () => {
       <h3 className="text-center text-xs">Most Recent Project</h3>
       <div className="flex space-x-9 justify-center mt-14 ">
         <div className=" bg-white h-60  w-80 rounded-xl">
-          <div className=" mx-4 mt-5">
+          <div className=" mx-4 mt-5 ">
             <img
-              className=" rounded-xl h-40"
+              className=" rounded-xl h-40 "
               src="new.1.png"
               alt="cryptoimage"
             ></img>

@@ -22,19 +22,21 @@ const Talktome = () => {
               niteshkhandelwal0504@gmail.com
             </h1>
             <div className="flex justify-center mt-5">
-              <h1 className=" text-xs">Write me</h1>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                className="w-5 h-5"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M2 10a.75.75 0 01.75-.75h12.59l-2.1-1.95a.75.75 0 111.02-1.1l3.5 3.25a.75.75 0 010 1.1l-3.5 3.25a.75.75 0 11-1.02-1.1l2.1-1.95H2.75A.75.75 0 012 10z"
-                  clipRule="evenodd"
-                />
-              </svg>
+              <a className=" flex" href="mailto:niteshkhandelwal0504@gmail.com">
+                <h1 className=" text-xs">Write me</h1>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  className="w-5 h-5"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M2 10a.75.75 0 01.75-.75h12.59l-2.1-1.95a.75.75 0 111.02-1.1l3.5 3.25a.75.75 0 010 1.1l-3.5 3.25a.75.75 0 11-1.02-1.1l2.1-1.95H2.75A.75.75 0 012 10z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </a>
             </div>
           </div>
 
@@ -53,21 +55,26 @@ const Talktome = () => {
             <h1 className=" text-center  font-semibold mt-4">WhatsApp</h1>
             <h1 className=" text-xs text-center">+91 97833XXXXX</h1>
             <div className="flex justify-center text-xs mt-4">
-              <h1 className="">Write me</h1>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-6 h-6"
+              <a
+                className="flex"
+                href="https://api.whatsapp.com/send?phone=9783356623"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-                />
-              </svg>
+                <h1 className="">Write me</h1>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-6 h-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                  />
+                </svg>
+              </a>
             </div>
           </div>
           <div className=" bg-white rounded-xl w-[300px] h-[140px]">
@@ -85,21 +92,23 @@ const Talktome = () => {
             <h1 className="text-center  font-semibold mt-4">Telegram</h1>
             <h1 className=" text-xs text-center">@Nk1897</h1>
             <div className="flex  justify-center mt-4">
-              <h1 className=" text-xs">Write me</h1>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-6 h-6"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-                />
-              </svg>
+              <a className="flex" href="https://t.me/Nk18977">
+                <h1 className=" text-xs">Write me</h1>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-6 h-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                  />
+                </svg>
+              </a>
             </div>
           </div>
         </div>

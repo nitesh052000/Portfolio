@@ -2,9 +2,25 @@ import React from "react";
 import { Link } from "react-scroll";
 
 const Footer = () => {
+  let days = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thrusday",
+    "Friday",
+    "Saturday",
+    "Sunaday",
+  ];
+
+  let now = new Date();
+  let day = now.getDay();
+
   return (
     <div className="mt-24 bg-white">
-      <h1 className="font-semibold text-2xl text-center">Nitesh Khandelwal</h1>
+      <h1 className="font-semibold text-2xl text-center">
+        © Nitesh Khandelwal , Have a good {days[day]}
+      </h1>
       <div className="flex mt-5 justify-center space-x-8">
         <Link
           className=" cursor-pointer"

@@ -3,7 +3,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import Scroll from "./Scroll";
-import { useNavigate } from "react-router-dom";
+import { TypeAnimation } from "react-type-animation";
 import { Link } from "react-scroll";
 
 const Home = () => {
@@ -29,11 +29,29 @@ const Home = () => {
         </div>
         <div className="flex flex-col col-span-4 ml-20">
           <h1 className=" text-5xl font-semibold">Nitesh Khandelwal🖐️</h1>
-          <div className="flex flex-row">
-            <div className=" h-[2px] w-12 bg-slate-800 mt-6"></div>
-            <h3 className=" text-xl mt-2 font-semibold pl-4">
+          <div className="flex flex-row mt-3">
+            <div className=" h-[2px] w-14 bg-slate-800 mt-6 "></div>
+            {/* <h3 className="text-xl mt-2 font-semibold pl-4">
               Software Developer , Web Developer
-            </h3>
+            </h3> */}
+            <div className="  text-xs mt-2  font-normal pl-4">
+              <TypeAnimation
+                sequence={[
+                  "I am Software Developer",
+                  1000,
+                  "I am Web Developer",
+                  1000,
+                ]}
+                wrapper="span"
+                speed={50}
+                style={{
+                  fontSize: "2em",
+                  display: "inline-block",
+                  color: "orange",
+                }}
+                repeat={Infinity}
+              />
+            </div>
           </div>
 
           <p className="pt-2 w-64">

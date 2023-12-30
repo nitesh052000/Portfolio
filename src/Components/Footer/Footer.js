@@ -18,7 +18,7 @@ const Footer = () => {
 
   return (
     <div className="mt-24 bg-white">
-      <h1 className="font-semibold text-2xl text-center">
+      <h1 className="font-semibold text-2xl text-center mt-8">
         © Nitesh Khandelwal , Have a good {days[day]}
       </h1>
       <div className="flex mt-5 justify-center space-x-8">

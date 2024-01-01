@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 const Header = () => {
   return (
-    <div className="   sticky top-0 w-full z-10">
+    <div className="   sticky top-0 w-full z-10 bg-gradient-to-r from-orange-300 h-12">
       <div className="flex space-x-5 pt-4 justify-between pb-2">
         <h1 className="text-violet-700 text-xl ml-40">NiTesH KhAndeLwAL</h1>
         <div>
@@ -13,7 +13,7 @@ const Header = () => {
             {/* <li className=" hover:text-orange-500"> */}
             {/* <a href="#home">Home</a> */}
             <Link
-              className=" cursor-pointer hover:text-orange-500"
+              className=" cursor-pointer hover:text-orange-500 hover:translate-y-2 hover: duration-300"
               to="home"
               spy={true}
               smooth={true}

@@ -148,3 +148,15 @@ code {
     border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%;
   }
 }
+
+.gif{
+  animation: car 22s linear infinite;
+
+@keyframes car {
+    0%{
+      left: -25%;
+    }
+    100%{
+      left:100%;
+    }
+}

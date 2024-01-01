@@ -18,6 +18,13 @@ const Footer = () => {
 
   return (
     <div className="mt-24 bg-white">
+      <div>
+        <img src="background.png"></img>
+        <img
+          class="gif"
+          src="https://media.tenor.com/LkYuOisQmz4AAAAi/car.gif"
+        ></img>
+      </div>
       <h1 className="font-semibold text-2xl text-center mt-8">
         © Nitesh Khandelwal , Have a good {days[day]}
       </h1>

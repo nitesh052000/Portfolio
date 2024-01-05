@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 const Header = () => {
   return (
-    <div className="   sticky top-0 w-full z-10 bg-gradient-to-r from-orange-300 h-12">
+    <div className="sticky top-0 w-full bg-white/50 z-10  backdrop-blur-md h-12">
       <div className="flex space-x-5 pt-4 justify-between pb-2">
         <h1 className="text-violet-700 text-xl ml-40">NiTesH KhAndeLwAL</h1>
         <div>

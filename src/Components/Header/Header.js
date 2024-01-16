@@ -2,15 +2,39 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Home from "./Home/Home";
 import { Link } from "react-scroll";
-import { useTheme } from "../Context/Context";
+import { useState, useEffect } from "react";
+// import { useTheme } from "../Context/Context";
 
 const Header = () => {
-  const { theme, toogleTheme } = useTheme();
+  const [isDarkMode, setIsDarkMode] = useState("light");
+
+  useEffect(() => {
+    if (isDarkMode === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+    console.log(isDarkMode);
+  }, [isDarkMode]);
+
+  // const toggletheme = () => {
+  //   setIsDarkMode(isDarkMode === "dark" ? "light" : "dark");
+  // };
+
+  const toggletheme1 = () => {
+    setIsDarkMode("light");
+  };
+
+  const toggletheme2 = () => {
+    setIsDarkMode("dark");
+  };
 
   return (
     <div className="sticky top-0 w-full bg-white/50 z-10  backdrop-blur-md h-12">
       <div className="flex space-x-5 pt-4 justify-between pb-2">
-        <h1 className="text-violet-700 text-xl ml-40">NiTesH KhAndeLwAL</h1>
+        <h1 className="text-violet-700 dark:text-amber-300 text-xl ml-40 ">
+          NiTesH KhAndeLwAL
+        </h1>
         <div>
           <div className="inline-flex space-x-6 text-stone-800 font-medium pl-10 mr-48">
             {/* <li className=" hover:text-orange-500"> */}
@@ -82,14 +106,15 @@ const Header = () => {
               Contact
             </Link>
 
-            <div className=" bg-slate-400 rounded-3xl w-14 h-6 flex space-x-1 ml-8 cursor-pointer">
+            <div className=" bg-slate-400 rounded-3xl w-14 h-6 flex space-x-1 ml-8">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 stroke="currentColor"
                 strokeWidth="1.5"
-                className="w-6 h-6"
+                className="w-6 h-6 cursor-pointer"
                 viewBox="0 0 24 24"
+                onClick={toggletheme1}
               >
                 <path
                   strokeLinecap="round"
@@ -103,7 +128,8 @@ const Header = () => {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-6 h-5"
+                className="w-6 h-5 cursor-pointer"
+                onClick={toggletheme2}
               >
                 <path
                   strokeLinecap="round"

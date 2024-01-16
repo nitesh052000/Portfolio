@@ -19,6 +19,10 @@ body {
     padding: 0;
 }
 
+.dark-mode{
+  background-color: gray;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

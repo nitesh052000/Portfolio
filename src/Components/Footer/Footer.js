@@ -17,7 +17,7 @@ const Footer = () => {
   let day = now.getDay();
 
   return (
-    <div className="mt-24 bg-white">
+    <div className="mt-24">
       <div>
         <img className=" h-90 w-full" src="background.png"></img>
       </div>

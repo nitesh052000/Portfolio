@@ -4,7 +4,7 @@ const Content = () => {
   return (
     <>
       <div className="grid [grid-template-columns:1fr_max-content_1fr] gap-5 mt-5">
-        <div className="h-28 flex flex-col items-end">
+        <div className="h-28 flex flex-col items-end" data-aos="fade-right">
           <div>
             <h1 className=" font-semibold">SSC (cgpa:9.2)</h1>
           </div>
@@ -47,7 +47,7 @@ const Content = () => {
             <div className="h-full w-[1px] bg-gray-500"></div>
           </div>
         </div>
-        <div className="h-28">
+        <div className="h-28" data-aos="fade-left">
           <div>
             <h1 className=" font-semibold">HSC(Perc: 80%)</h1>
             <h1 className=" text-xs mt-4 ml-4">MPS Kota,Raj</h1>
@@ -73,7 +73,7 @@ const Content = () => {
       </div>
 
       <div className="grid [grid-template-columns:1fr_max-content_1fr] gap-5">
-        <div className="h-28 flex flex-col items-end">
+        <div className="h-28 flex flex-col items-end" data-aos="fade-right">
           <h1 className=" font-semibold">B.Tech</h1>
           <h1 className=" text-xs mt-4">M.N.I.T Jaipur</h1>
           <div className="flex text-xs">

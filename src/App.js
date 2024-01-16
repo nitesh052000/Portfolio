@@ -12,7 +12,7 @@ import Backtotop from "./Components/Backtotop";
 
 function App() {
   return (
-    <div className="App">
+    <div class="App">
       <Header />
       <Home />
       <About />

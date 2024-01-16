@@ -8,10 +8,16 @@ const Skills = () => {
       <h2 className=" text-4xl font-semibold text-center gap-x-6">Skills</h2>
       <h3 className="text-center text-xs">My Technical Level</h3>
       <div className="flex space-x-7 justify-center mt-24">
-        <div className=" w-96 h-80 bg-white rounded-3xl border-2 border-opacity-10">
+        <div
+          className=" w-96 h-80 bg-white rounded-3xl border-2 border-opacity-10"
+          data-aos="fade-right"
+        >
           <Frontend />
         </div>
-        <div className=" w-96 h-80 bg-white rounded-3xl border-2   border-opacity-10">
+        <div
+          className=" w-96 h-80 bg-white rounded-3xl border-2   border-opacity-10"
+          data-aos="fade-left"
+        >
           <Backend />
         </div>
       </div>

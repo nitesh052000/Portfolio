@@ -54,7 +54,7 @@ const Home = () => {
             </div>
           </div>
 
-          <p className="pt-2 w-64">
+          <p className="pt-2 w-64" data-aos="fade-in">
             A results-driven Software Developer ,enthusiastic,creative Web
             Developer with excellent communication skills ,ready to give my best
             to achieve remarkable outcomes.

@@ -21,7 +21,7 @@ const Queries = () => {
         style={{
           marginTop: "20px",
         }}
-        className=" w-full h-40"
+        className=" w-full h-40 "
         label="Enter your query/request here"
         variant="outlined"
       />

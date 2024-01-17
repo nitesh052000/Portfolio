@@ -5,7 +5,9 @@ const Talktome = () => {
   return (
     <div className="flex  justify-evenly mt-6">
       <div className="  h-[500px] w-[300px]">
-        <h1 className=" text-center font-semibold">Talk to me</h1>
+        <h1 className=" text-center font-semibold text-slate-950 dark:text-slate-100">
+          Talk to me
+        </h1>
         <div className=" mt-4 space-y-4 ">
           <div className="  bg-white rounded-xl w-[300px] h-[140px]  items-center">
             <svg
@@ -17,7 +19,7 @@ const Talktome = () => {
               <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
               <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
             </svg>
-            <h1 className=" text-center  font-semibold mt-4">Email</h1>
+            <h1 className=" text-center  font-semibold mt-4 ">Email</h1>
             <h1 className=" text-xs text-center">
               niteshkhandelwal0504@gmail.com
             </h1>
@@ -115,7 +117,7 @@ const Talktome = () => {
       </div>
 
       <div className=" h-[500px] w-[360px] ">
-        <h1 className=" font-semibold text-center">
+        <h1 className=" font-semibold text-center text-slate-950 dark:text-slate-100">
           Write me Your Project/queries
         </h1>
         <Queries />

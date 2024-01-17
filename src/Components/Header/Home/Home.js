@@ -15,8 +15,8 @@ const Home = () => {
 
   return (
     <div>
-      <div id="home" className="grid grid-cols-10 mt-48">
-        <div className="ml-6 flex flex-col gap-6 pt-12">
+      <div id="home" className="grid grid-cols-10 mt-48 dark:bg-slate-900">
+        <div className="ml-6 flex flex-col gap-6 pt-12 stroke-black dark:stroke-slate-50">
           <a href="https://twitter.com/NiteshK82298714">
             <TwitterIcon />
           </a>
@@ -28,7 +28,9 @@ const Home = () => {
           </a>
         </div>
         <div className="flex flex-col col-span-4 ml-20">
-          <h1 className=" text-5xl font-semibold">Nitesh Khandelwal🖐️</h1>
+          <h1 className=" text-5xl font-semibold  text-slate-950 dark:text-slate-100">
+            Nitesh Khandelwal🖐️
+          </h1>
           <div className="flex flex-row mt-3">
             <div className=" h-[2px] w-14 bg-slate-800 mt-6 "></div>
             {/* <h3 className="text-xl mt-2 font-semibold pl-4">
@@ -54,7 +56,10 @@ const Home = () => {
             </div>
           </div>
 
-          <p className="pt-2 w-64" data-aos="fade-in">
+          <p
+            className="pt-2 w-64  text-slate-950 dark:text-slate-100"
+            data-aos="fade-in"
+          >
             A results-driven Software Developer ,enthusiastic,creative Web
             Developer with excellent communication skills ,ready to give my best
             to achieve remarkable outcomes.

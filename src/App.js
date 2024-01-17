@@ -12,7 +12,7 @@ import Backtotop from "./Components/Backtotop";
 
 function App() {
   return (
-    <div class="App">
+    <div className=" bg-zinc-100 dark:bg-slate-900">
       <Header />
       <Home />
       <About />

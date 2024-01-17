@@ -17,7 +17,7 @@ const Footer = () => {
   let day = now.getDay();
 
   return (
-    <div className="mt-24">
+    <div className="mt-24 dark:bg-slate-900">
       <div>
         <img className=" h-90 w-full" src="background.png"></img>
       </div>
@@ -28,7 +28,7 @@ const Footer = () => {
         ></img>
       </div>
       <div>
-        <h1 className="font-semibold text-2xl text-center mt-8">
+        <h1 className="font-semibold text-2xl text-center mt-8 text-slate-950 dark:text-slate-100">
           © Nitesh Khandelwal , Have a good {days[day]}
         </h1>
         <div className="flex mt-5 justify-center space-x-8">
@@ -41,7 +41,7 @@ const Footer = () => {
             offset={50}
             duration={500}
           >
-            <h1>About</h1>
+            <h1 className="text-slate-950 dark:text-slate-100">About</h1>
           </Link>
           <Link
             className=" cursor-pointer"
@@ -52,7 +52,7 @@ const Footer = () => {
             offset={50}
             duration={500}
           >
-            <h1>Projects</h1>
+            <h1 className="text-slate-950 dark:text-slate-100">Projects</h1>
           </Link>
           <Link
             className=" cursor-pointer"
@@ -63,13 +63,13 @@ const Footer = () => {
             offset={50}
             duration={500}
           >
-            <h1>Skills</h1>
+            <h1 className="text-slate-950 dark:text-slate-100">Skills</h1>
           </Link>
         </div>
         <div className=" flex justify-center mt-8 space-x-7">
           <a href="https://github.com/nitesh052000">
             <svg
-              className="w-5 h-5"
+              className="w-5 h-5 stroke-black dark:stroke-slate-50"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 18 18"
             >
@@ -81,7 +81,7 @@ const Footer = () => {
           </a>
           <a href="https://github.com/nitesh052000">
             <svg
-              className="h-5 w-5"
+              className="h-5 w-5 stroke-black dark:stroke-slate-50"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 16 16"
             >
@@ -89,7 +89,9 @@ const Footer = () => {
             </svg>
           </a>
         </div>
-        <h1 className=" text-center mt-20">© Nitesh. All rights reserved</h1>
+        <h1 className=" text-center mt-20 stroke-black dark:stroke-slate-50 text-slate-950 dark:text-slate-100">
+          © Nitesh. All rights reserved
+        </h1>
       </div>
     </div>
   );

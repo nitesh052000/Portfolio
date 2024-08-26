@@ -12,6 +12,7 @@ const Queries = () => {
       <TextField
         style={{
           marginTop: "20px",
+          dark: "text-white",
         }}
         className=" w-full"
         label="Insert your email"

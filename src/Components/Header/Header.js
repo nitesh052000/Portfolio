@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 // import { useTheme } from "../Context/Context";
 
 const Header = () => {
-  const [isDarkMode, setIsDarkMode] = useState("light");
+  const [isDarkMode, setIsDarkMode] = useState("Dark");
 
   useEffect(() => {
     if (isDarkMode === "dark") {
@@ -32,15 +32,13 @@ const Header = () => {
   return (
     <div className="sticky top-0 w-full bg-white/50 z-10  backdrop-blur-md h-12">
       <div className="flex space-x-5 pt-4 justify-between pb-2">
-        <h1 className="text-violet-700 dark:text-amber-600 text-xl ml-40 ">
-          NiTesH KhAndeLwAL
-        </h1>
+        <h1 className="text-amber-600 text-xl ml-40 ">NiTesH KhAndeLwAL</h1>
         <div>
           <div className="inline-flex space-x-6 text-stone-800 font-medium pl-10 mr-48">
             {/* <li className=" hover:text-orange-500"> */}
             {/* <a href="#home">Home</a> */}
             <Link
-              className=" cursor-pointer hover:text-orange-500 hover:translate-y-2 hover: duration-300"
+              className=" cursor-pointer hover:text-orange-500 hover:translate-y-1 hover: duration-300"
               to="home"
               spy={true}
               smooth={true}
@@ -56,7 +54,7 @@ const Header = () => {
                 About
               </a> */}
             <Link
-              className=" cursor-pointer hover:text-orange-500"
+              className=" cursor-pointer hover:text-orange-500 hover:translate-y-1 hover: duration-300"
               to="about-us"
               spy={true}
               smooth={true}
@@ -69,7 +67,7 @@ const Header = () => {
             {/* </li> */}
             {/* <li className=" hover:text-orange-500"> */}
             <Link
-              className=" cursor-pointer hover:text-orange-500"
+              className=" cursor-pointer hover:text-orange-500 hover:translate-y-1 hover: duration-300"
               activeClass="active"
               to="skills"
               spy={true}
@@ -82,7 +80,7 @@ const Header = () => {
             {/* </li> */}
             {/* <li className=" hover:text-orange-500"> */}
             <Link
-              className=" cursor-pointer hover:text-orange-500"
+              className=" cursor-pointer hover:text-orange-500 hover:translate-y-1 hover: duration-300"
               activeClass="active"
               to="portfolio"
               spy={true}
@@ -95,7 +93,7 @@ const Header = () => {
             {/* </li> */}
             {/* <li className=" hover:text-orange-500"> */}
             <Link
-              className=" cursor-pointer hover:text-orange-500"
+              className=" cursor-pointer hover:text-orange-500 hover:translate-y-1 hover: duration-300"
               activeClass="active"
               to="contact"
               spy={true}

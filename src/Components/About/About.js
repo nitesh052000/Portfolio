@@ -13,11 +13,7 @@ const About = () => {
 
       <div className="flex flex-row space-x-aadhiPyali justify-center mt-24  h-72 space-x-28">
         <div className="w-80">
-          <img
-            src="about-me.jpg"
-            alt="nitesh"
-            className="w-80 h-72 rounded-xl"
-          />
+          <img src="self.jpg" alt="nitesh" className="w-80 h-72 rounded-xl" />
         </div>
         <div className="w-80">
           <Info />
@@ -26,7 +22,7 @@ const About = () => {
             applications with UI. You can see what I am up to on my GitHub.
           </p>
           <a
-            href="https://drive.google.com/file/d/1vvOfy9jO5i8Si-LpTapE04tyA2_YFM8d/view?usp=sharing"
+            href="https://drive.google.com/file/d/1NJzJ5LYWwAbJBaKBkl35AdyO0TD0kBfq/view?usp=sharing"
             download
           >
             <button class="btnn">Download Resume</button>

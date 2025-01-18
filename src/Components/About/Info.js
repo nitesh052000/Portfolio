@@ -19,7 +19,7 @@ const Info = () => {
           />
         </svg>
         <h3>Experience</h3>
-        <span className="  pt-11 text-xs">1.5 years and counting</span>
+        <span className="  pt-11 text-xs">1+ years and counting</span>
       </div>
       <div className=" h-28 bg-white rounded-2xl w-40 text-center hover:bg-slate-400">
         <svg
@@ -37,7 +37,7 @@ const Info = () => {
           />
         </svg>
         <h3>Completed</h3>
-        <span className=" text-xs">6+Projects</span>
+        <span className=" text-xs">20+Projects</span>
       </div>
     </div>
   );

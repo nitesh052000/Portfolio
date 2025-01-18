@@ -4,7 +4,7 @@ const Backend = () => {
   return (
     <div>
       <h1 className=" text-center font-semibold my-6">Backend Developer</h1>
-      <div className="grid grid-cols-2 mx-20 gap-5">
+      <div className="grid grid-cols-2 mx-10 gap-5">
         <div>
           <div className="flex">
             <svg

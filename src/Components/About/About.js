@@ -22,7 +22,7 @@ const About = () => {
             applications with UI. You can see what I am up to on my GitHub.
           </p>
           <a
-            href="https://drive.google.com/file/d/1NJzJ5LYWwAbJBaKBkl35AdyO0TD0kBfq/view?usp=sharing"
+            href="https://drive.google.com/file/d/1B33k51ACCoBdw4yNtcnNXUCjLRp8hUe9/view?usp=sharing"
             download
           >
             <button class="btnn">Download Resume</button>

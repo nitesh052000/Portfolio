@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
@@ -39,6 +39,18 @@ const Portfolio = () => {
       img: "port.png",
       link: "https://github.com/nitesh052000/Portfolio",
     },
+    {
+      id: 6,
+      title: "Mystry-Message",
+      img: "mystr.png",
+      link: "https://github.com/nitesh052000/Portfolio",
+    },
+    {
+      id: 7,
+      title: "Cloudinary-Saas",
+      img: "cloud.png",
+      link: "https://github.com/nitesh052000/Portfolio",
+    },
   ];
 
   return (
@@ -51,15 +63,21 @@ const Portfolio = () => {
       </h3>
       <Swiper
         spaceBetween={0}
-        slidesPerView={3} // Show 3 slides at a time
+        // slidesPerView={3} // Show 3 slides at a time
         navigation
-        pagination={{ clickable: true }}
-        modules={[Navigation, Pagination]}
+        // pagination={{ clickable: true }}
         className="mt-14"
+        autoplay={{ delay: 2000, disableOnInteraction: false }}
+        modules={[Navigation, Pagination, Autoplay]}
+        breakpoints={{
+          320: { slidesPerView: 1 }, // Mobile: 1 slide
+          640: { slidesPerView: 2 }, // Tablets: 2 slides
+          1024: { slidesPerView: 3 }, // Desktops: 3 slides
+        }}
       >
         {projects.map((project) => (
           <SwiperSlide key={project.id}>
-            <div className="bg-white h-60 w-80 rounded-xl mx-auto">
+            <div className="bg-white h-60 w-80 rounded-xl mx-auto p-[1px]">
               <div className="mx-4 mt-5">
                 <img
                   className="rounded-xl h-40"

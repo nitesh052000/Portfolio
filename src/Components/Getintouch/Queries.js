@@ -3,28 +3,21 @@ import TextField from "@mui/material/TextField";
 
 const Queries = () => {
   return (
-    <div className=" mt-6  gap-5">
-      <TextField
-        className=" w-full"
-        label="Enter Your name"
-        variant="outlined"
+    <div className=" mt-6 gap-5">
+      <input
+        className=" p-4 rounded-full mb-5 w-full"
+        placeholder="Enter your Name"
+        type="text"
       />
-      <TextField
-        style={{
-          marginTop: "20px",
-          dark: "text-white",
-        }}
-        className=" w-full"
-        label="Insert your email"
-        variant="outlined"
+      <input
+        className=" p-4 rounded-full mb-5 w-full"
+        placeholder="Enter your email"
+        type="text"
       />
-      <TextField
-        style={{
-          marginTop: "20px",
-        }}
-        className=" w-full h-40 "
-        label="Enter your query/request here"
-        variant="outlined"
+      <input
+        className=" p-4 rounded-full mb-5 w-full"
+        placeholder="Enter your query !"
+        type="text"
       />
       <button class="btnnn">Send Message</button>
     </div>

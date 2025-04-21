@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 // import { useTheme } from "../Context/Context";
 
 const Header = () => {
-  const [isDarkMode, setIsDarkMode] = useState("Dark");
+  const [isDarkMode, setIsDarkMode] = useState("dark");
 
   useEffect(() => {
     if (isDarkMode === "dark") {

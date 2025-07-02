@@ -23,9 +23,9 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      title: "PowerBI Dashboard",
-      img: "Power.png",
-      link: "https://github.com/nitesh052000/Power-Bi-Project",
+      title: "Expense Tracker",
+      img: "Screenshot (138).png",
+      link: "https://expense-tracker-frontend-q36q.onrender.com",
     },
     {
       id: 4,
@@ -90,22 +90,9 @@ const Portfolio = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="flex text-xs">
-                    <h1>Demo/GitHub</h1>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                      className="w-4 h-6"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-                      />
-                    </svg>
+                  <div className="flex text-xs gap-4">
+                    <h1>Demo</h1>
+                    <h1>Github</h1>
                   </div>
                 </a>
               </div>
